@@ -1,0 +1,35 @@
+Testing Your Code
+Please provide a list of what test cases you would want to cover for your code. You do not need to write the tests themselves.
+
+
+Here is a list of some ‘quick’ testing that I considered (did) and could consider more broadly. Overall, the test cases would look to cover ‘the basic’ functionality, the output of expected (correctness), a small performance test based on data sizes, and input validation.
+
+Basic Functionality Tests
+I’d want the function to run without errors (I certainly received tons of error with my current coding experience😊 ) and have it run successfully with a “valid” target distribution and recipient list. Successfully would be comparing output to my hypothesis of an output. 
+
+•	Confirm a valid Target Distribution Test
+
+Test with different (valid) target distributions to verify that the function correctly assigns payment configurations based on specified amounts/weights.
+
+•	Recipient List Test
+Test with different sizes of recipient lists to confirm the function can handle various input sizes.
+
+•	Weight Sum Validation Test
+Test with an invalid target ‘distribution’ where the weights do not sum to 1.0 and that the function shows a ValueError in this case.
+
+•	Dependability Test
+Run the function multiple times with the same inputs and check if the distribution of assigned payment configurations is consistent with the distribution.
+
+•	Performance Test
+Test the function with a large number of recipients and complex target distribution to assess its performance and then test with a small number of recipients and a simple target distribution to ensure correctness. I feel this one is of importance where it comes to the ‘entire tribe’ instead of just selected recipients in a village. 
+
+•	Input Type Test
+Test with different data types (letters,numbers,characters,etc) for the target distribution and recipient list to ensure the function handles them appropriately.
+
+Additional Considerations / Remaining Work
+
+Lastly, if you had more time, what are other issues or scenarios you'd want to spend more time
+ensuring your code can address?
+
+I’d want to add an ‘entry screen’ / UI so that the different scenarios could be run rather quickly. I’d also ask ( the persons asking for the above function) if they wanted to keep track of the difference scenarios , based on additional experimentation models, and then plot / graph results to iterate on additional scenarios.  
+
